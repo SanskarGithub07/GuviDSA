@@ -21,6 +21,10 @@ public class Demo1 {
             System.out.println(i.next());
         }
 
+        al.removeFirst();
+        al.removeLast();
+        System.out.println(al.getFirst());
+        System.out.println(al.getLast());
         System.out.println(al.contains(100));
         al.add(2, 250);
 
